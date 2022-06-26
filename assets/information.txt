@@ -1,0 +1,41 @@
+             [0]: sunny
+          [1, 2]: partly cloudy
+             [3]: cloudy
+    [61, 63, 65]: rainy
+[71, 73, 75, 77]: snowy
+          others: unsupported
+
+
+
+'berlin': {
+    lat: '52.52',
+    long: '13.41'
+  }
+
+  'london': {
+    lat: '51.5002',
+    long: '-0.1262'
+  }
+
+  'moscow': {
+    lat: '55.7558',
+    long: '37.6176',
+  }
+
+  'tehran': {
+    lat: '35.7061',
+    long: '51.4358',
+  }
+
+  'luanda': {
+    lat: '-8.8159',
+    long: '13.2306',
+  },
+
+
+
+API endpoint
+https://api.open-meteo.com/v1/forecast?latitude=YOUR_LATITUDE&longitude=YOUR_LONGITUDE&current_weather=true&timeformat=unixtime
+
+API documentation:
+https://open-meteo.com/en/docs
